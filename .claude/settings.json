@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.local)",
+      "Read(./.env.production)",
+      "Read(./.env.*.local)"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(vercel:*)",
+      "Bash(npx vercel:*)",
+      "Bash(supabase:*)",
+      "Bash(npx supabase:*)"
+    ]
+  }
+}
